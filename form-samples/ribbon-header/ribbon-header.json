@@ -86,7 +86,7 @@
                   "children": [
                     {
                       "elmType": "div",
-                      "txtContent": "=if([$Department] == '', 'Please Select a department' , [$Department])",
+                      "txtContent": "=if([$field_1] == '', 'Please Select a department' , [$field_1]+ ' Staffing Plan')",
                       "style": {
                         "font-size": "22px",
                         "font-weight": "bold",
